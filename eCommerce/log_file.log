@@ -1,0 +1,17 @@
+Watching for file changes with StatReloader
+/home/josh/project-x/e-shop/eCommerce/eCommerce/settings.py changed, reloading.
+Watching for file changes with StatReloader
+/home/josh/project-x/e-shop/eCommerce/eCommerce/settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /products/ HTTP/1.1" 200 3554
+"GET /media/images/products/peripherals_laptop_latitude_3420nt_gallery_1.webp HTTP/1.1" 304 0
+"GET /media/images/products/Gear-Korin-SOURCE-Korin.jpg HTTP/1.1" 304 0
+"GET /media/images/products/download.jfif HTTP/1.1" 304 0
+"GET /static/product/index.css HTTP/1.1" 404 1911
+"GET /static/style.css HTTP/1.1" 404 1887
+"GET /products/categories/1/ HTTP/1.1" 200 3160
+"GET /static/style.css HTTP/1.1" 404 1887
+"GET /static/product/index.css HTTP/1.1" 404 1911
+"GET /products/categories/2/ HTTP/1.1" 200 2751
+"GET /static/product/index.css HTTP/1.1" 404 1911
+"GET /static/style.css HTTP/1.1" 404 1887

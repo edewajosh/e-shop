@@ -39,13 +39,14 @@ lib64/
 parts/
 sdist/
 var/
+bin/
 wheels/
 share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
 MANIFEST
-log_file.log
+*.log
 db.sqlite3
 
 # PyInstaller
