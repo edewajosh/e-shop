@@ -9,9 +9,8 @@ def cart_add(request, product_id):
     product = get_object_or_404(Product, id=product_id)
     form = CartAddProductForm(request.POST)
     if form.is_valid():
-        quantity = form.cleaned_data['quantity']
-        update = form.cleaned_data['update']
-        cart.add(product, quantity, override_quantity=update)
+        data = form.cleaned_data
+        cart.add(product, quantity = data['quantity'], override_quantity=data['update'])
 
     return redirect('cart:cart_detail')
 
